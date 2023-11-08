@@ -17,7 +17,6 @@ class PantallaFinal: UIViewController, UITableViewDataSource, UITableViewDelegat
     struct Puntuacion {
         var puntos: Int
     }
-    
     var puntuaciones = [Puntuacion]()  // Array para almacenar las puntuaciones
 
         override func viewDidLoad() {

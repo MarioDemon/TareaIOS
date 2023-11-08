@@ -46,7 +46,6 @@ class ViewController: UIViewController {
             boton6.isEnabled = false
             boton7.isEnabled = true
         }
-
     func randomizeImageViewOrder() {//Randomizar las imagenes
         
         imageTagsInOrder = imageTagsInOrder.shuffled()
